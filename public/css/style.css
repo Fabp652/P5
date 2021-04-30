@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap');
+body{
+    font-family: 'MedievalSharp', sans-serif;
+    background: url('http://localhost/P5/P5_01_Code/public/images/background_body.jpg') center no-repeat;
+}
+.parchment{
+    background-image: url('http://localhost/P5/P5_01_Code/public/images/background_parchment.jpg');
+}
+.content-nav{
+    z-index: 999999;
+}
+.filter{
+    z-index: -1;
+}
+.logo{
+    width: 74.6px;
+    height: 47px;
+}
+td {
+    width: 50px;
+    height: 50px;        
+}
+.allTable{
+    height: 550px;
+    width: 500px;
+}
+.selected{
+    width: 50px;
+    height: 50px;
+}
+
+.btn{
+    background-color: #7F1C1C;
+}
+
+.btn:hover{
+    background-color: #9b2d2d;
+}
+
+.link-hover:hover{
+    color: #7F1C1C;
+}
